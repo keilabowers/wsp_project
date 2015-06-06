@@ -1,12 +1,129 @@
-/* 
-================================================================================
-WSP COMPONENT LIBRARY STYLESHEET
-================================================================================ */
+/* WSP Project Keila Bowers */
+
+/* 00747C  F5F3EE  FCFBF5 */
+
+/* ---- Global ---- */
+body {
+	background: #F5F3EE;
+	font-family: sans-serif;
+	}
+
+h1 {
+	font-size: 1.8em;
+	}
+
+p {
+	font-family: 'Arvo', serif;
+	}
+	
+/* ---- Header ---- */
+
+header {
+	width: 1050px;
+	margin: 10px auto;
+	}
 
 
+/* ---- About ---- */
 
-/* HEADER SPECIFIC ======================================== */
+#about {
+	background: #333;
+	overflow: auto;
+	padding: 25px;
+	color: #F5F3EE;
+	}
 
-/* ABOUT SPECIFIC ======================================== */
+#me {
+	float: left;
+	margin-left: 200px;
+	width: 200px;
+	border-radius: 10px;
+	}
 
-/* COMPONENTS SPECIFIC ======================================== */
+#bubble {
+	float: left;
+	margin-left: 100px ;
+   	width: 640px;
+   	height: 225px;
+   	padding: 15px;
+   	background: #00747C;
+   	position: relative;
+   	-moz-border-radius: 10px;
+   	-webkit-border-radius: 10px;
+   	border-radius: 10px;
+	}
+
+#bubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 90px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid #00747C;
+   border-bottom: 13px solid transparent;
+	} 
+
+p {
+	margin-top: 10px;
+	}
+
+/* ---- Library ---- */
+
+#library {
+	clear: both;
+	width: 1050px;
+	margin: 25px auto;
+	}
+
+.line {
+	border: 2px solid #00747C;
+	margin-top: 5px;
+	margin-bottom: 15px; 
+	} 
+
+h2 {
+	color: #00747C;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+	}
+	
+h3 {
+	margin-top: 20px;
+	font-size: 1.275em;
+	}
+
+section p {
+	margin-bottom: 20px;
+	font-family: sans-serif;
+	}
+			
+section {
+	width: 1050px;
+	margin: 10px auto;
+	padding: 20px;
+	color: black;
+	background: white;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 2px 5px 2px rgba(209,205,197,1);
+	-moz-box-shadow: 1px 2px 5px 2px rgba(209,205,197,1);
+	box-shadow: 1px 2px 5px 2px rgba(209,205,197,1); */
+	}
+		
+section img {
+	max-width: 1000px;
+	border-radius: 10px;
+	padding: 10px;
+	}
+
+section a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.3em;
+	color: #F5F3EE; 
+	width: 200px;
+	padding: 5px; 
+	background: rgb(0,116,124);
+	border-radius: 5px;
+	}
