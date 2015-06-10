@@ -115,7 +115,7 @@ section img {
 	padding: 10px;
 	}
 
-section a {
+.button {
 	text-decoration: none;
 	text-align: center;
 	font-size: 1.3em;
