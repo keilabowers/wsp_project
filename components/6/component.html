@@ -8,8 +8,59 @@
 <body>
 
 	<!-- Component -->
+	<section>
+		<form action="" method="post" id="filter">
+			<fieldset>
+				<h2>Location</h2>
+				<select name="month">
+					<option value="All">All Neighborhoods</option>
+					<option value="Town1">Town1</option>
+					<option value="Town2">Town2</option>
+				</select>
+				
+				<a href="">Looking for a specific address?</a>
+			</fieldset>
 
-	
+			<fieldset>
+				<h2>Date Range</h2>
+				<div>
+				<label for="from_date">From</label>
+				<input id="from_date" name="from_date" type="date" placeholder="">
+				</div>
+				
+				<div>
+				<label for="to_date">To</label>
+				<input id="to_date" name="to_date" type="date" placeholder="">
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<h2>Price Range</h2>			
+				<div>
+				<label for="price"></label>
+				<input id="price" name="price" type="range">
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<h2>Number of Rooms</h2>
+				<div>
+				<label for="bedrooms"></label>
+				<input id="bedrooms" name="bedrooms" type="number" min="0" max="10">
+				</div>
+				<div>
+				<label for="bathrooms"></label>
+				<input id="bathrooms" name="bathrooms" type="number" min="0" max="10">
+				</div>
+			</fieldset>
+				
+			<fieldset>
+				<h2>Matching Results</h2>
+				<p>23</p>
+				<button id="update" name="update" type="submit">Update Filters</button>
+			</fieldset>	
+		</form>
+	</section>
 
 	<!-- End Component -->
 	

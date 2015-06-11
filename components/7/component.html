@@ -8,7 +8,82 @@
 <body>
 
 	<!-- Component -->
+	<article>
+	
+		<section>
+			<img src="" alt="food">
+			<h1>Best of Dining Experience</h1>
+			<p>Book your table now</p>
+		</section>	
 
+		<section>
+			<img src="#" alt="restaurant">
+			<form action="" method="post" id="reservation">
+			
+				<fieldset>
+					<label class="dining">Select your dining space</label>
+			
+					<label class="dining">
+					<input id="2_person" name="num_people" type="radio"><img src="#">02 Person
+					</label>
+					
+					<label class="dining">
+					<input id="4_person" name="num_people" type="radio"><img src="#">04 Person
+					</label>
+
+					<label class="dining">
+					<input id="8_person" name="num_people" type="radio"><img src="#">08 Person
+					</label>
+
+					<label class="dining">
+					<input id="banquet" name="num_people" type="radio">Book Banquet
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<div>
+					<label for="choice">For your choice</label>
+					<input id="choice" name="choice" type="text">
+					</div>
+					
+					<label for="occasion">Occasion</label>
+					<select name="occasion">
+						<option value="anniversary">Anniversary</option>
+						<option value="reason1">reason1</option>
+						<option value="reason2">reason2</option>
+					</select>
+
+					<label for="pref_food">Preferred Food</label>
+					<select name="pref_food">
+						<option value="italian">Italian</option>
+						<option value="food1">food1</option>
+						<option value="food2">food2</option>
+					</select>
+					
+				</fieldset>
+			
+				<fieldset>
+					<div>
+					<label for="name">Enter your name</label>
+					<input id="name" name="name" type="text">
+					</div>
+					<div>
+					<label for="phone">Phone number</label>
+					<input id="phone" name="phone" type="tel">
+					</div>
+					
+					<label for="email">E-mail id</label>
+					<input id="email" name="email" type="email">
+					</div>
+					
+					<a href="">Verify your via your mobile phone</a>
+					<button id="book" name="book" type="submit">Book Now</button>
+				</fieldset>	
+			</form>			
+		</section>	
+		
+	</article>	
+		
 	
 
 	<!-- End Component -->

@@ -6,3 +6,8 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+.what {
+	text-transform: lowercase;
+
+	}
